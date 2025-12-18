@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vidify</title>
+  </head>
+  <body>
+    <div
+      class="bg-dark p-2 d-flex continer-fluid"
+      style="width: 100%; height: 60px"
+    >
+      <div class="col-3">
+        <div class="p-2">
+          <img
+            src="Images/logo.png"
+            alt="Logo"
+            style="width: 86px; height: 24px"
+          />
+        </div>
+      </div>
+      <div
+        class="col-5 bg-transparent w-400px border border-transparent rounded p-1"
+      >
+        <img
+          class="img-fluid"
+          src="Images/search.png"
+          alt=""
+          style="width: 20px; height: 20px"
+        />
+        <input
+          type="text"
+          placeholder="Search"
+          class="bg-transparent border-0 outline w-300px mt-1"
+          style="width: 95%"
+        />
+      </div>
+      <div class="col-4 d-flex flex-row justify-content-end pe-6 gap-2">
+        <button type="button" class="btn btn-secondary">
+          <img
+            class="img-fluid rounded-circle"
+            src="Images/fcc.png"
+            alt=""
+            style="width: 30px; height: 32px"
+          />
+          <span class="badge badge-light"></span>
+          <span class="sr-only"></span>
+        </button>
+        <button type="button" class="btn btn-secondary">
+          <img
+            class="img-fluid rounded-circle"
+            src="Images/bell.png"
+            alt=""
+            style="width: 30px; height: 32px"
+          />
+          <span class="badge badge-light"></span>
+          <span class="sr-only"></span>
+        </button>
+        <div class="p-0 m-0">
+          <button type="button" class="btn btn-secondary">
+            Stellar Interiors
+            <span class="badge badge-light"
+              ><img
+                class="rounded-circle img-fluid"
+                src="Images/chair.png"
+                alt=""
+                style="width: 25px; height: 25px"
+            /></span>
+            <span class="sr-only"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2 container-fluid" style="background-color: #ebebeb">
+          <ul class="list-unstyled p-1 mt-1">
+            <li class="p-1 hover-light">
+              <img
+                class="img-fluid"
+                src="Images/home.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href="">Home</a>
+            </li>
+            <li class="p-1 hover-light">
+              <img
+                class="img-fluid"
+                src="Images/ord.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href="">Orders</a>
+            </li>
+            <li class="p-1 hover-light">
+              <img
+                class="img-fluid"
+                src="Images/prod.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href=""
+                >Products</a
+              >
+            </li>
+            <li class="p-1 hover-light">
+              <img
+                class="img-fluid"
+                src="Images/cust.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href=""
+                >Customers</a
+              >
+            </li>
+            <li class="p-1 hover-light">
+              <img
+                class="img-fluid"
+                src="Images/cont.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href="">Content</a>
+            </li>
+            <li class="p-1 hover-light">
+              <img
+                src="Images/fin.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href="">Finance</a>
+            </li>
+            <li class="p-1 hover-light">
+              <img
+                class="img-fluid"
+                src="Images/anal.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href=""
+                >Analytics</a
+              >
+            </li>
+            <li class="p-1 hover-light">
+              <img
+                class="img-fluid"
+                src="Images/mark.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href=""
+                >Marketing</a
+              >
+            </li>
+            <li class="p-1 hover-light">
+              <img
+                class="img-fluid"
+                src="Images/disc.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href=""
+                >Discounts</a
+              >
+            </li>
+          </ul>
+          <div class="hover-light">
+            <h7>Sales Channel</h7>
+            <img class="ps-5 img-fluid" src="Images/arrow.png" alt="" />
+          </div>
+          <ul class="list-unstyled p-1 mt-1">
+            <li class="p-1 hover-light">
+              <img
+                class="img-fluid"
+                src="Images/os.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href=""
+                >Online Store</a
+              >
+            </li>
+            <li class="p-1 hover-light">
+              <img
+                class="img-fluid"
+                src="Images/pos.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href=""
+                >Point of Sale</a
+              >
+            </li>
+            <li class="p-1 hover-light">
+              <img
+                class="img-fluid"
+                src="Images/sale.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href="">Shop</a>
+            </li>
+          </ul>
+          <br />
+          <div class="hover-light">
+            <h7>Apps</h7>
+            <img class="ps-5 img-fluid" src="Images/arrow.png" alt="" />
+          </div>
+          <ul class="list-unstyled p-1 mt-1">
+            <li class="p-1 bg-light">
+              <img
+                class="img-fluid"
+                src="Images/lock.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2" href="">Vidify</a>
+            </li>
+            <li class="p-1">
+              <a class="text-decoration-none text-dark ps-5" href=""
+                >Generate Video</a
+              >
+            </li>
+            <li class="p-1">
+              <a class="text-decoration-none text-dark ps-5" href=""
+                >Subscribe</a
+              >
+            </li>
+          </ul>
+          <ul class="list-unstyled p-1 mt-1 m-6" style="height: 140vh; padding-top: 140vh;">
+            <li class="p-1 hover-light ">
+              <img
+                class="img-fluid"
+                src="Images/sett.png"
+                alt=""
+                style="width: 20px; height: 20px"
+              />
+              <a class="text-decoration-none text-dark ps-2 " href="">Setting</a>
+            </li></ul>
+        </div>
+        <!--                  Side Bar End                -->
+        <!--                 Main Page Start              -->
+        <div class="col-10" style="background-color: #f2f2f2">
+          <div class="m-3">
+            <img
+              class=""
+              src="Images/lock.png"
+              alt=""
+              style="width: 25px; height: 25px"
+            />
+            <h7>Vidify</h7>
+          </div>
+          <div
+            class="d-block flex-col align-items-center mx-auto"
+            style="width: 80%"
+          >
+            <div>
+              <h1>Welcome to Vidify</h1>
+              <p>Enhance your video creation with the power of AI</p>
+            </div>
+            <div
+              class="border border-2 rounded-3 container-fluid"
+              style="background-color: #fff; width: 100%; height: 150px"
+            >
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row mt-3 ms-3">
+                  <h6 class="px-2">Video Generator</h6>
+                  <img
+                    src="Images/i.png"
+                    alt=""
+                    style="width: 15px; height: 15px"
+                  />
+                </div>
+                <div class="mx-3 mt-2">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    style="width: 165px; height: 35px"
+                  >
+                    Upgrade Your Plan
+                  </button>
+                </div>
+              </div>
+              <p class="ms-4">
+                Current Plan: Explorer – 2 AI Videos /Month <br />0/2 Video
+              </p>
+              <div class="progress mx-4">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="20"
+                  aria-valuemin="0"
+                  aria-valuemax="80"
+                ></div>
+              </div>
+            </div>
+            <!-- Card 2 Start -->
+            <div
+              class="border border-2 rounded-1 mt-3 container-fluid d-flex flex-row"
+              style="background-color: #fff; width: 100%; height: auto"
+            >
+              <div class="container-fluid" style="">
+                <img
+                  class="img-fluid p-4 m-0"
+                  src="Images/b1.png"
+                  alt=""
+                  style=""
+                />
+              </div>
+              <div class="">
+                <div class="d-flex justify-content-between m-0 mt-3">
+                  <h6 class="mt-3">
+                    Generate Stunning AI-Videos from Product Images
+                  </h6>
+                  <img
+                    class="m-4"
+                    src="Images/dots.png"
+                    alt=""
+                    style="width: 15px; height: 3px"
+                  />
+                </div>
+                <p class="" style="font-size: smaller;">
+                  Turn your product images into scroll-stopping marketing videos
+                  in seconds. Just upload images; we'll add dynamic animations
+                  and effects for a high-converting result.
+                </p>
+                <div
+                  class="d-flex flex-row border border-2 rounded-3 p-2 mb-2"
+                  style="width: fit-content; height: 40px"
+                >
+                  <img
+                    src="Images/gen.png"
+                    alt=""
+                    style="width: 20px; height: 20px"
+                  />
+                  <p class="mx-2">Generate Ai Video</p>
+                </div>
+              </div>
+            </div>
+            <!-- End of Card 2 -->
+            <!-- Card with 3 data sets -->
+            <div
+              class="border border-2 rounded-3 container-fluid mt-3"
+              style="background-color: #fff; width: 100%; height: auto"
+            >
+              <div class="m-3">
+                <h4>Drive More Sales with Vidify AI Product Videos</h4>
+                <p class="text-sm">
+                  Transform product marketing & your brand presence with
+                  stunning videos.
+                </p>
+              </div>
+              <div>
+                <div class="d-flex flex-row">
+                  <img
+                    class="ms-3"
+                    src="Images/pg.png"
+                    alt=""
+                    style="width: 40px; height: 40px"
+                  />
+                  <div class="mx-3">
+                    <h6 class="fw-bold" style="font-size: 0.85rem">
+                      Documentation
+                    </h6>
+                    <p style="font-size: smaller">
+                      Read our step-by-step guidelines to explore and master
+                      every Vidify feature.
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex p-2 position-relative"
+                    style="width: 292px"
+                  >
+                    <img
+                      class="position-absolute top-0 end-0 mt-3 hover-light"
+                      src="Images/arro.png"
+                      alt=""
+                      style="width: 40px; height: 40px"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="d-flex flex-row">
+                  <img
+                    class="ms-3"
+                    src="Images/cst.png"
+                    alt=""
+                    style="width: 40px; height: 40px"
+                  />
+                  <div class="mx-3">
+                    <h6 class="fw-bold" style="font-size: 0.85rem">Support</h6>
+                    <p style="font-size: smaller">
+                      Our team is always ready to help reach out anytime to
+                      solve any issue.
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex p-2 position-relative"
+                    style="width: 325px"
+                  >
+                    <img
+                      class="position-absolute top-0 end-0 mt-3 hover-light"
+                      src="Images/arro.png"
+                      alt=""
+                      style="width: 40px; height: 40px"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="d-flex flex-row">
+                  <img
+                    class="ms-3"
+                    src="Images/success.png"
+                    alt=""
+                    style="width: 40px; height: 40px"
+                  />
+                  <div class="mx-3">
+                    <h6 class="fw-bold" style="font-size: 0.85rem">
+                      Vidify Walkthrough
+                    </h6>
+                    <p style="font-size: smaller">
+                      Book a session with our experts and learn how to get the
+                      most out of Vidify.
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex p-2 position-relative"
+                    style="width: 298px"
+                  >
+                    <img
+                      class="position-absolute top-0 end-0 mt-3 hover-light"
+                      src="Images/arro.png"
+                      alt=""
+                      style="width: 40px; height: 40px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ENd of Card 3 -->
+            <!-- Card 4 Start -->
+            <div
+              class="border border-2 rounded-1 mt-3 container-fluid d-flex flex-row"
+              style="background-color: #fff; width: 100%; height: auto"
+            >
+              <div class="">
+                <img
+                  class="img-fluid p-0 m-0"
+                  src="Images/c4.png"
+                  alt=""
+                  style=""
+                />
+              </div>
+              <div class="m-3">
+                <div class="d-flex justify-content-between">
+                  <h6 class="mt-3">
+                    Want to schedule a call?
+                  </h6>
+                  <img
+                  
+                    class="m-4"
+                    src="Images/dots.png"
+                    alt=""
+                    style="width: 15px; height: 3px"
+                  />
+                </div>
+                <p class="" style="font-size: smaller;">
+                  We have marketing experts ready to help build your video
+                  marketing strategy and guide you in scaling your store with
+                  video. Want to book a one-to-one session? It’s FREE!
+                </p>
+                <div
+                  class="d-flex flex-row border border-2 rounded-3 p-2 mb-2"
+                  style="width: fit-content; height: 40px"
+                >
+                  <img
+                    src="Images/call.png"
+                    alt=""
+                    style="width: 20px; height: 20px"
+                  />
+                  <p class="mx-2">Talk to Vidify Expert</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 4 End -->
+             <!-- Card 5 Start -->
+            <div
+              class="border border-2 rounded-3 container-fluid mt-3"
+              style="background-color: #fff; width: 100%; height: auto"
+            >
+            <div class="d-flex justify-content-between">
+                  <h6 class="mt-3 fw-bold">
+                    Other Apps from software
+                  </h6>
+                  <img
+                    class="m-4"
+                    src="Images/dots.png"
+                    alt=""
+                    style="width: 15px; height: 3px"
+                  /></div>
+                  <div class=" mt-3 container-fluid d-flex flex-row"
+              style="background-color: #fff; width: 100%; height: auto">
+                    <div class="m-1">
+                <img
+                  class="img-fluid p-0 m-0"
+                  src="Images/c5.png"
+                  alt=""
+                  style="width: 302px; height: 170px"
+                />
+              </div>
+              <div class="">
+                <div class="">
+                  <h6 class="mx-2">
+                    BetterDocs for Shopify – Advanced Knowledge Base App
+                  </h6>
+                  
+                </div>
+                <p class="mx-2" style="font-size: xx-small;">
+                  Boost customer satisfaction with an efficient AI-enhanced knowledge base & FAQ system. Build smart documentation and reduce support load effortlessly
+                  <ul style="font-size: xx-small;">
+                    <li>Create high-performing docs & FAQs with Magic AI AutoWrite</li>
+                    <li>Enable Live Chat & Instant Answers for seamless customer support</li>
+                    <li>Customize your knowledge base with intuitive design options</li>
+                    <li>Track performance with in-depth analytics</li>
+                  </ul>
+                </p>
+                <div
+                  class="d-flex flex-row border border-2 rounded-3 p-1 mb-2 mx-3"
+                  style="width: fit-content; height: 40px"
+                ><p class="mx-3">Get Started</p>
+                </div>
+                <div class="d-flex flex-row-reverse">
+                  <img
+                    class="m-0"
+                    src="Images/next.png"
+                    alt=""
+                    style="width: auto; height: 20px"
+                  />
+                  <img
+                    class="m-0"
+                    src="Images/prev.png"
+                    alt=""
+                    style="width: 40px; height: 45px; padding-bottom: 25px;"
+                  />
+                  
+                </div>
+              </div>
+              <!-- <div class=""><img src="Images/pager.png" alt=""></div> -->
+                  </div>
+          </div>
+            <!-- Footer Start -->
+            <footer class="d-flex flex-row justify-content-between mb-4">
+              <div class="m-3">
+                <img
+                  class=""
+                  src="Images/lock.png"
+                  alt=""
+                  style="width: 25px; height: 25px"
+                />
+                <h7>Vidify</h7>
+              </div>
+              <div class="mt-3">
+                <p>Copyright © 2025 | Storeware | Version 12.0.0</p>
+              </div>
+            </footer>
+            <!-- Footer End -->
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
